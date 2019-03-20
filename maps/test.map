@@ -1,0 +1,31 @@
+// Game: Quake
+// Format: Standard
+// entity 0
+{
+"classname" "worldspawn"
+"wad" "extracted/e1m1.wad"
+// brush 0
+{
+( -112 128 16 ) ( -112 -112 16 ) ( -112 -112 -16 ) sfloor4_2 -0 -0 0 1 1
+( 112 -112 16 ) ( 112 -112 -16 ) ( -112 -112 -16 ) sfloor4_2 0 0 0 1 1
+( -112 -112 -16 ) ( 112 -112 -16 ) ( 112 128 -16 ) sfloor4_2 0 0 0 1 1
+( 112 128 16 ) ( 112 -112 16 ) ( -112 -112 16 ) sfloor4_2 0 0 0 1 1
+( 112 128 -16 ) ( 112 128 16 ) ( -112 128 16 ) sfloor4_2 0 0 0 1 1
+( 112 128 -16 ) ( 112 -112 -16 ) ( 112 -112 16 ) sfloor4_2 -0 -0 0 1 1
+}
+}
+// entity 1
+{
+"classname" "info_player_start"
+"origin" "-32 48 40"
+}
+// entity 2
+{
+"classname" "light_flame_small_yellow"
+"origin" "16 -80 31"
+}
+// entity 3
+{
+"classname" "misc_explobox2"
+"origin" "-112 -112 16"
+}

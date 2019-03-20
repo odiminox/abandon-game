@@ -1,0 +1,4 @@
+﻿gas2masm.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+gas2masm.obj : error LNK2019: unresolved external symbol ___iob_func referenced in function _emitanoperand
+gas2masm.obj : error LNK2019: unresolved external symbol _printf referenced in function _emitanoperand
+.\Debug/gas2masm.exe : fatal error LNK1120: 2 unresolved externals
