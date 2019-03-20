@@ -1,25 +1,25 @@
 # Abandon
 Developed in using the original Quake Engine.
 
-# Required Tools
+## Required Tools
 MS VS 2008 is required to build the project.
 TexMex - Create texture wad packs
 PakExpl - explore PAK0 and PAK1
 TrenchBroom - Create map files and compile them to BSP
 
-# Build Notes
+## Build Notes
 build gas2masm in debug mode before the winquake project.
 if you are getting a "Couldn't load gfx.wad" when you try to run from VS, launch the exe located in Debug directly.
 
-# Running the game
+## Running the game
 Create a shortcut to the exe inside Debug and invoke the game with "WinQuake.exe -game mygame".
 This is a temporary solution; as the project matures we will move away from this.
 
-# Assets
+## Assets
 Everything currently lives (will be updated in the future) inside Debug/mygame and Id1.
 Quake will first look inside Debug/mygame for assets, then fall back onto Id1
 
-# Maps
+## Maps
 Located in Id1/maps
 texture wads are loated in maps/extracted
 Quake bsp files which contain wads are located in maps/pak_0 and maps/pak_1.
