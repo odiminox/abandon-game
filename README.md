@@ -37,3 +37,6 @@ To convert a map into a bsp which the Quake engine can use you need to:
 8. Set the parameter to "{output_directory}/{name}.bsp"
 
 To test your map, load Quake, open the console and type "map {map_name}" (you don't need to include the .bsp on the end)
+
+## Resources
+If in doubt, check the Quake Wiki: https://quakewiki.org/wiki/Main_Page
