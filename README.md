@@ -1,5 +1,15 @@
 # Abandon
-Developed in using the original Quake Engine.
+Welcome to the Abandon game project. Called Abandon because that's what happens each time I try to work on it.
+Developed using the original Quake Engine; I work on this sporadically in my lunch time.
+
+The aim behind this game is an edgy, dark, first person narrative about whatever I make up as I progress through development.
+Do whatever you want with this - fork/rip/alter, I don't care.
+
+If you know a better way of compiling the engine or improving my hacky asset integration process and tool chain please update this readme.
+
+Yes the project structure is complete anarchy, but blame Carmack and crew for that one.
+
+John Romero is God.
 
 ## Required Tools
 MS VS 2008 is required to build the project.
