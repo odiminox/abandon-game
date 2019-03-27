@@ -15,10 +15,10 @@ John Romero is God.
 Invoke WinQuake.exe with args "-game mygame", open terminal, type "map test-compiled" 
 
 ## Required Tools
-MS VS 2008 is required to build the project.
-TexMex - Create texture wad packs
-PakExpl - explore PAK0 and PAK1
-TrenchBroom - Create map files and compile them to BSP
+1. MS VS 2008 is required to build the project.
+2. TexMex - Create texture wad packs
+3. PakExpl - explore PAK0 and PAK1
+4. TrenchBroom - Create map files and compile them to BSP
 
 ## Build Notes
 build gas2masm in debug mode before the winquake project.
