@@ -11,6 +11,9 @@ Yes the project structure is complete anarchy, but blame Carmack and crew for th
 
 John Romero is God.
 
+## For the Impatient
+Invoke WinQuake.exr with args "-game mygame", open terminal, type "map testcompiled" 
+
 ## Required Tools
 MS VS 2008 is required to build the project.
 TexMex - Create texture wad packs
