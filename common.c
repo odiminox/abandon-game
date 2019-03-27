@@ -41,6 +41,7 @@ int             static_registered = 1;  // only for startup check, then set
 qboolean		msg_suppress_1 = 0;
 
 void COM_InitFilesystem (void);
+void COM_InitAbandonGame (void);
 
 // if a packfile directory differs from this, it is assumed to be hacked
 #define PAK0_COUNT              339
@@ -1114,6 +1115,10 @@ void COM_InitArgv (int argc, char **argv)
 		hipnotic = true;
 		standard_quake = false;
 	}
+
+	if (COM_CheckParm ("-map"))
+	{
+	}
 }
 
 
@@ -1154,6 +1159,7 @@ void COM_Init (char *basedir)
 
 	COM_InitFilesystem ();
 	COM_CheckRegistered ();
+	COM_InitAbandonGame ();
 }
 
 
@@ -1722,6 +1728,31 @@ void COM_AddGameDirectory (char *dir)
 // add the contents of the parms.txt file to the end of the command line
 //
 
+}
+
+/*
+================
+COM_InitAbandonGame
+================
+*/
+void COM_InitAbandonGame (void)
+{
+	int i, j;
+
+	Con_DebugLog(va("%s/qconsole.log",com_gamedir), "%s", "Initialising Abandon Quake Engine Layer");
+
+	//Con_Printf("Initialising Abandon Quake Engine Layer");
+
+	i = COM_CheckParm ("-map");
+	if ((i && i) < (com_argc - 1))
+	{
+	//	Con_Printf("Found -map argument");
+		com_argv[i+1];
+	}
+	else
+	{
+		//Con_Printf("Have not found -map argument");
+	}
 }
 
 /*
